@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 import Moment from 'react-moment';
 
+//
+// Presentational component : renders the view based on the props passed in.
+//
 class DishDetail extends Component {
     renderComments(comments) {
         if(!comments) { return(<div></div>); }
